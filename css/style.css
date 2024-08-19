@@ -18,3 +18,96 @@ li {
 	margin-left: auto;
 	margin-right: auto;
   }
+
+  .publication-entry {
+	margin-bottom: 1em;
+}
+
+.abstract, .citation {
+	margin-top: 10px;
+}
+
+.collapse-button {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	text-align: left;
+	width: 100%;
+	display: block;
+}
+
+.collapse-button:hover {
+	background-color: #0056b3;
+}
+
+.title-link {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.title-link:hover {
+	text-decoration: underline;
+}
+
+.card-body {
+	background-color: #f8f9fa;
+}
+
+.card-body pre {
+	/*background-color: #f8f9fa;*/
+	padding: 10px;
+	border-radius: 5px;
+	white-space: pre-wrap; /* Makes sure the text wraps, ignores extra newlines */
+	word-wrap: break-word; /* Ensures long words are wrapped */
+	margin: 0; /* Removes default margin */
+	text-align: left; /* Ensures text starts from the left */
+	overflow-x: auto; /* Adds horizontal scroll if content exceeds width */
+}
+
+.card-body code {
+	display: block;
+	font-family: monospace;
+	white-space: pre-wrap; /* Preserves formatting and wraps text */
+	margin: 0; /* Removes default margin */
+}
+
+.bibtex-container {
+	background-color: #ffffff; /* White background for the BibTeX box */
+	padding: 15px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for better visual separation */
+	overflow-x: auto; /* Adds horizontal scroll if content exceeds width */
+}
+
+.contact-info {
+	font-size: 24px;
+	color: #333;
+	margin: 0 10px;
+	transition: color 0.3s;
+}
+
+.contact-info:hover {
+	color: #007bff; /* Color change on hover */
+}
+
+.contact-icons {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.contact-icons a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.contact-icons .fa {
+	margin: 0 10px;
+	font-size: 30px; /* Adjust size of icons */
+}
+
+/* Ensures the icons are responsive and centered */
+.contact-icons img {
+	max-width: 100%;
+	height: auto;
+}
