@@ -3,6 +3,7 @@
 }
 li {
 	list-style-type: none;
+	margin-bottom: 10px;
 }
 
 #profile-pic {
@@ -110,4 +111,16 @@ li {
 .contact-icons img {
 	max-width: 100%;
 	height: auto;
+}
+
+/* Section */
+h2 {
+    font-size: 2rem;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.teaching-list {
+	margin-bottom: 10px;
 }
